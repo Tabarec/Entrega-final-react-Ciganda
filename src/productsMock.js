@@ -4,7 +4,7 @@ export let products = [
         title: "Xiaomi Redmi Note 10",
         price: 12000,
         description: "Pantalla AMOLED de 6.43″, su procesador Qualcomm Snapdragon 678, una gran batería de 5000mAh, cámara selfie de 13MP y cámara cuádruple de 48MP",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709075938/D_NQ_NP_958122-MLA46168604018_052021-O_wb441p.webp",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709673003/xiaomi_redmi_note_10_f38ips.png",
         stock: 20,
         category: "celulares",
       },
@@ -15,7 +15,7 @@ export let products = [
         stock: 7,
         description: "El Samsung Galaxy A24 es un smartphone con una pantalla Super AMOLED de 6.5 pulgadas a resolución FHD+ y tasa de refresco de 90Hz, y potenciado por un procesador Helio G99 de MediaTek con 6GB o 8GB de memoria RAM y 128GB de almacenamiento interno expandible",
         category: "celulares",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709079392/samsung-galaxy-a24-4-128gb-silver-foto1_yobaxs.webp",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709673310/samsunggalaxya24_am4tli.webp",
       },
       {
         id: 3,
@@ -25,7 +25,7 @@ export let products = [
         description:
           "Cuenta con un procesador Mediatek Helio G36, 2GB de memoria RAM y 64GB de almacenamiento interno que le permite ejecutar Android 13 Go sin problemas. Se encuentra respaldado por una gran batería Li-Po de 5000mAh de capacidad y además viene con un cargador micro USB de 10W que brinda una carga super rápida",
         category: "celulares",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709082530/XRA264GBK-1-550x550_gp4jjo.jpg",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709674417/xiaomiredmia2_s5dyou.jpg",
       },
       {
         id: 4,
@@ -34,14 +34,14 @@ export let products = [
         stock: 10,
         description: "Esta laptop cuenta con una Resolución Full HD y una pantalla de 14 pulgadas",
         category: "laptops",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709140112/51Afm88Bq0L._AC_UF894_1000_QL80__n2ge7o.jpg",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709674733/laptopsamsung_ylpoxr.jpg",
       },
       {
         id: 5,
         title: "Portátil Dell Latitude 12 7000",
         price: 6300,
         description: "Esta laptop tiene un procesador Intel Core i5 y una pantalla de 12.5 pulgadas",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709140694/41iAhuToAZL._AC__ye0ztb.jpg",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709674280/laptopdell_rvfe9z.webp",
         stock: 4,
         category: "laptops",
       },
@@ -52,7 +52,7 @@ export let products = [
         stock: 11,
         description: "Los audífonos Logitech G332 para juegos producen un gran sonido que permite sumergirse en el juego. Vive la intensidad de una experiencia de juego completa donde lo oyes todo y te oyen todos",
         category: "auriculares",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709161124/auriculares-logitech-g332-aud316-001_vupvvp.jpg",
+        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709671572/auris_goat_yubdgo.jpg",
       },
     ];
     
