@@ -1,7 +1,6 @@
 import ItemCountContainer from "../../common/itemCount/ItemCountContainer";
 import "./ItemDetail.css"
-export const ItemDetail = ({ item }) => {
-  console.log(item);
+export const ItemDetail = ({ item, onAdd, initial}) => {
   return (
     <div>
       <div className={"containerItemDetail"}>
@@ -15,7 +14,7 @@ export const ItemDetail = ({ item }) => {
             {item.title}
           </h2>
           <h2 style={{ fontFamily: "monospace" }}>
-            <span style={{ fontSize: "23px" }}>Descripcion:</span>{" "}
+            <span style={{ fontSize: "23px" }}>Descripción:</span>{" "}
             {item.description}
           </h2>
           <h2 style={{ fontFamily: "monospace" }}>
@@ -24,9 +23,16 @@ export const ItemDetail = ({ item }) => {
           </h2>
         </div>
       </div>
+      
+      {
+        initial && <h3>Usted ya tiene {initial} en el carrito </h3>
+      }
+      
       <div style={{ display: "flex", justifyContent: "center" }}>
           <ItemCountContainer 
             stock={item.stock}
+            onAdd={onAdd}
+            initial={initial}
           />
         </div>
       </div>

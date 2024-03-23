@@ -1,15 +1,5 @@
 export let products = [
-    {
-        id: 1,
-        title: "Xiaomi Redmi Note 10",
-        price: 12000,
-        description: "Pantalla AMOLED de 6.43″, su procesador Qualcomm Snapdragon 678, una gran batería de 5000mAh, cámara selfie de 13MP y cámara cuádruple de 48MP",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709673003/xiaomi_redmi_note_10_f38ips.png",
-        stock: 20,
-        category: "celulares",
-      },
       {
-        id: 2,
         title: "Samsung Galaxy A24",
         price: 11900,
         stock: 7,
@@ -18,7 +8,6 @@ export let products = [
         img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709673310/samsunggalaxya24_am4tli.webp",
       },
       {
-        id: 3,
         title: "Xiaomi Redmi a2",
         price: 4400,
         stock: 16,
@@ -28,16 +17,6 @@ export let products = [
         img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709674417/xiaomiredmia2_s5dyou.jpg",
       },
       {
-        id: 4,
-        title: "Portátil de Oficina Samsung 2022",
-        price: 7930,
-        stock: 10,
-        description: "Esta laptop cuenta con una Resolución Full HD y una pantalla de 14 pulgadas",
-        category: "laptops",
-        img: "https://res.cloudinary.com/dwg1khl34/image/upload/v1709674733/laptopsamsung_ylpoxr.jpg",
-      },
-      {
-        id: 5,
         title: "Portátil Dell Latitude 12 7000",
         price: 6300,
         description: "Esta laptop tiene un procesador Intel Core i5 y una pantalla de 12.5 pulgadas",
@@ -46,7 +25,6 @@ export let products = [
         category: "laptops",
       },
       {
-        id: 6,
         title: "Auriculares Logitech G332",
         price: 2120,
         stock: 11,

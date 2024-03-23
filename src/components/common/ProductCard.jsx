@@ -15,7 +15,6 @@ export const ProductCard = ({ img, title, description, price, id }) => {
     <CardMedia
       sx={{ height: 250 }}
       image={img}
-      
     />
     <CardContent sx={{ height: "250px" }}>
       <Typography
